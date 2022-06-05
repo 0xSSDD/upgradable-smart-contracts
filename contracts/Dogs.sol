@@ -2,7 +2,7 @@ pragma solidity 0.8.14;
 
 import "./Storage.sol";
 
-contract Dog is Storage {
+contract Dogs is Storage {
 
   modifier onlyOwner() {
     require(msg.sender == owner);
